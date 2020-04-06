@@ -1,0 +1,61 @@
+.small-img {
+    width: 20%;
+}
+
+nav {
+    position: fixed;
+}
+
+#nav-list {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    margin: 70px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+#newsletter {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.btn, #newsletter-input {
+    margin: 5px;
+    padding: 8px;
+}
+
+.btn {
+    text-transform: uppercase;
+    background: #ffc211;
+}
+
+.btn-bold {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+#newsletter-input {
+    width: 15%;
+}
+
+#features {
+    text-align: start;
+}
+
+#features div i, #features div div {
+    float: left;
+    width: 50%;
+}
